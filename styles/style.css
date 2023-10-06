@@ -1,0 +1,217 @@
+
+                                                    /* Body Setings */
+body{
+    margin:0;   /* Change the margin size/ */
+    padding: 0;  /* Change the padding size/ */
+    color: black; /* Change the color of the text */
+    background-color: #3e4142; /* Change the color of the background */
+    font-size: 16px;  /* Change the font size */
+    font-family: Copperplate, Papyrus, fantasy; /* Chnage the font family */
+    line-height: normal; /* Change the height of the lines */
+    display: flex; /* Chnage the display aligment */
+    justify-content: flex-end; /* Align content to the right */
+    align-items: flex-start; /* Align content to the top */
+    height: 100vh; /* Full viewport height */
+    align-items: center;
+    justify-content: center;
+
+}
+
+                                                            /* Navbar */
+ /* Navbar */
+.navbar{    
+    text-transform: uppercase;  /* Makes text upercas */
+}
+
+/* Logo */
+.logo{
+    position: absolute;  /* The text is only staing there  */
+    list-style: none; /* Display no lines  */
+    padding: 0;  /* Change the padding size/ */
+    display: flex; /* Chnage the display aligment */
+    flex-direction: row; /* The items are aligning in a row */
+    top: 0;  /* Position top  */
+    left: 0; /* Position left  */
+}
+
+/* Items in the logo list  */
+.logo li {
+    margin-left: 20px; /* Increase the margin for more space between items */
+  }
+
+/* Items in the logo a  */
+.logo a {
+    margin-left: 20px; /* Change the  left margin size/ */
+    font-weight: bolder; /* Make the text bolder  */
+    font-size: 40px; /* Change the font size */
+    display: inline-block; /* Chnage the display aligment */
+    padding: 26px 20px;  /* Change the padding size/ */
+    color: #c997c9; /* Button text color */
+    text-decoration: none;  /* No line or dot is displayed  */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;  /* Indicates a link  */
+}
+
+/* Hovering over buttons  */
+.logo a:hover {
+    color: #c997c9a4;  /* Change the color of the text */
+}
+
+/* list fot MUSIC & VIDEO  */
+.list{
+    position: absolute;  /* The text is only staing there  */
+    list-style: none; /* Display no lines  */
+    padding: 0; /* Change the padding size/ */
+    display: flex; /* Chnage the display aligment */
+    flex-direction: row; /* The items are aligning in a row */
+    top: 0;  /* Position top  */
+    right: 0; /* Position right  */
+    font: 100;  /* The size of the font is 100%  */
+}
+
+/* List items  */
+.list li {
+    
+    font-weight: bolder; /* Make the text bolder  */
+    font-size: 40px; /* Change the font size */
+    margin-right: 20px; /* Increase the margin for more space between items */
+}
+
+/* List items in a  */
+.list a {
+    display: inline-block; /* Chnage the display aligment */
+    padding: 10px 20px; /* Change the padding size/ */
+    color: #c997c9; /* Button text color */
+    text-decoration: none; /* No line or dot is displayed  */
+    cursor: pointer; /* Indicates a link  */
+}
+
+/* Item Hover  */
+.list a:hover {
+    color: #c997c9a4; /* Change the color of the text */
+}
+                                                /* Footer Right  */
+/* Footer right  */
+.footer-list{
+    bottom:  0 ;
+    right:  0 ;
+    position: absolute;
+}
+
+/* Footer List Item  */
+.footer-list li{
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* Footer list img  */
+.footer-list img{
+    bottom: 0px;
+    right: 0;
+    padding:  10px 25px;
+    width: 40px;
+    height: 40px;
+}
+/* Footer list hover  */
+.footer-list :hover img{
+    border: 1px solid #c997c9a4;
+    background-color: #c997c9a4;
+    border-radius: 5px;
+    
+}
+                                                            /* Newsletter  */
+/* Newsletter  */
+.newsletter-container {
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    max-width: 400px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+ /* First Text  */
+h1 {
+    font-size: 24px;
+}
+
+/* Form  */
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* The input box  */
+input[type="email"] {
+    outline: none;
+    background-color: #3e4142;
+    flex: 2;
+    color:#c997c9;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-bottom: 3px solid  white;
+}
+
+/* Subscribe Button  */
+button {
+    flex: 1;
+    padding: 10px;
+    background-color: #c997c9;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Subscribe  button Hover  */
+button:hover {
+    background-color: #c997c9a4;
+}
+
+/* If button pressed  */
+#confirmation-message {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.popup {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    position: absolute;
+    width: 300px; /* Adjust the width of the pop-up as needed */
+    height: 200px; /* Adjust the height of the pop-up as needed */
+    border-radius: 5px;
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button#close-popup {
+    background-color:#c997c9;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
